@@ -1,0 +1,39 @@
+.reveal section img {
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+strong {
+  color: green;
+}
+img.small {
+  max-height: 100px;
+}
+.dev-info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.dev-image {
+  height: 50px;
+  float: left;
+}
+.dev-title {
+  position: relative;
+  top: 7px;
+  float: left;
+}
+.reveal .cool-img {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+.cool-img:nth-child(2n+1) {
+  clear: left;
+}
+.cool-stories {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 auto;
+}
